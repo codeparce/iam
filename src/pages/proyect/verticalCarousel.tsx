@@ -8,7 +8,7 @@ import type { Experiencia } from '@/lib/utils';
 
 
 interface Props {
-  data: Experiencia[]
+    data: Experiencia[]
 }
 
 export default function VerticalCarousel({ data }: Props) {
@@ -75,13 +75,12 @@ export default function VerticalCarousel({ data }: Props) {
                                 </span>
 
                                 {item.urls && item.urls.length > 0 && (
-                                    <div className="flex gap-2 w-full h-full flex-wrap">
-
-                                        <span className="text-xs font-bold block md:hidden text-yellow-400">
-                                            Tecnologías
-                                        </span>
-
-                                        <div className="flex md:gap-2 gap-1">
+                                    <div className="flex gap-2 w-full h-full ">
+                                        <div className="flex md:gap-2 gap-1 flex-wrap">
+                                            
+                                            <span className="text-xs font-bold block md:hidden text-yellow-400">
+                                                Tecnologías
+                                            </span>
                                             {item.urls.map((src, i) => (
                                                 <img
                                                     key={i}

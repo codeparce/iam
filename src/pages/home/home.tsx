@@ -95,14 +95,14 @@ function Home() {
                         Stack & Skills
                     </h2>
 
-                    <div className="flex flex-wrap gap-3 justify-center md:justify-start ">
+                    <div className="flex flex-wrap gap-1 md:gap-2 justify-center md:justify-start ">
                         {images.map((img, index) => (
                             <img
                                 key={index}
                                 src={pathFrameworks + img}
                                 alt={`Skill ${index}`}
-                                className="w-7 md:w-10 aspect-square object-cover 
-                                           rounded-md bg-zinc-800 p-1 
+                                className="w-9 md:w-11 aspect-square object-cover 
+                                           rounded-md bg-zinc-800 m-1 p-1 
                                            border border-zinc-700 
                                            hover:border-yellow-400 
                                            hover:scale-110 
