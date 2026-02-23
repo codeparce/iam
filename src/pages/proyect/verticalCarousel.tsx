@@ -44,20 +44,20 @@ export default function VerticalCarousel({ data }: Props) {
 
                             <CardHeader className="w-full">
 
-                                <CardTitle className="text-yellow-400 font-mono ">
+                                <CardTitle className="text-yellow-400 font-mono text-xs md:text-sm">
                                     {item.titulo}
                                 </CardTitle>
 
                                 <span className="text-zinc-500">
-                                    <span className="font-bold text-xs text-yellow-500 font-mono">
+                                    <span className="font-bold text-xs  text-yellow-500 font-mono">
                                         Empresa:
                                     </span>{" "}
-                                    <span className="text-xs text-zinc-400">
+                                    <span className="text-xs  text-zinc-400">
                                         {item.empresa}
                                     </span>
                                 </span>
 
-                                <CardDescription className="md:text-xs text-zinc-400">
+                                <CardDescription className="text-xs text-zinc-400">
                                     {item.descripcion}
                                 </CardDescription>
 
@@ -69,7 +69,7 @@ export default function VerticalCarousel({ data }: Props) {
                                     <span className="font-bold text-xs text-yellow-500 font-mono" >
                                         Tecnologías:
                                     </span>{" "}
-                                    <span className="md:text-xs">
+                                    <span className="text-xs">
                                         {item.tecnologias.join(", ")}
                                     </span>
                                 </span>
