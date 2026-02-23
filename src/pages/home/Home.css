@@ -1,0 +1,6 @@
+.skills:hover {
+    border: solid 1px slateblue;
+    box-shadow: 1px;
+    transition: all .5s;
+}
+
